@@ -1,0 +1,6 @@
+.editorconfig
+#.eslintrc.js
+.gitignore
+jsconfig.json
+#nuxt.config.js
+package.json
