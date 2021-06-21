@@ -1,0 +1,42 @@
+{
+    "nav": [
+        {
+            "title": "基础知识",
+            "id": "basic",
+            "children": [
+                {
+                    "title": "Cookie 缓存",
+                    "path": "/basic/cookie"
+                },
+                {
+                    "title": "Cursor 鼠标样式",
+                    "path": "/basic/cursor"
+                },
+                {
+                    "title": "Filter CSS滤镜",
+                    "path": "/basic/filter"
+                }
+            ]
+        },
+        {
+            "title": "组件",
+            "id": "component",
+            "children": [
+                {
+                    "title": "",
+                    "path": ""
+                }
+            ]
+        },
+        {
+            "title": "数据结构",
+            "id": "data-structure",
+            "children": [
+                {
+                    "title": "",
+                    "path": ""
+                }
+            ]
+        }
+    ]
+}
