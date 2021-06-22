@@ -45,6 +45,12 @@ jobs:
       - name: Install dependencies 👨🏻‍💻
         run: yarn
 
-      - name: Run linter 👀
-        run: yarn lint
+      - name: Run generate
+        run: yarn run generate
+
+      - name: 部署文档
+        env:
+            ACCESS_TOKEN: ${{ secrets.GIT_TOKEN }}
+        run: cd dist && echo 'jser.press' > CNAME && git config --global init.defaultBranch main && git init && git add -A && git commit -m "deploy" && git push -f https://$ACCESS_TOKEN@github.com/GuoJikun/front-end-development.git main:gh-pages
+
 

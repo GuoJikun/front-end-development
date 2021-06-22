@@ -35,6 +35,10 @@
                 {
                     "title": "BOM",
                     "path": "/basic/bom"
+                },
+                {
+                    "title": "WebComponent",
+                    "path": "/basic/web-component"
                 }
             ]
         },
@@ -63,6 +67,14 @@
                 {
                     "title": "Stack 栈",
                     "path": "/data-structure/stack"
+                },
+                {
+                    "title": "LinkedList 链表",
+                    "path": "/data-structure/linked-list"
+                },
+                {
+                    "title": "Set 集合",
+                    "path": "/data-structure/set"
                 },
                 {
                     "title": "BST 二叉搜索树",
