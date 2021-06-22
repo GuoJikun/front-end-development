@@ -1,4 +1,4 @@
-name: ci
+name: 部署文档
 
 on:
   push:
@@ -47,6 +47,8 @@ jobs:
 
       - name: Run generate
         run: yarn run generate
+      - name: 配置git
+        run: git config --global user.email "guojikun486546@163.com" && git config --global user.name "GuoJikun"
 
       - name: 部署文档
         env:
