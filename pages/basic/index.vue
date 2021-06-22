@@ -1,13 +1,11 @@
 <template>
     <div>
-        <h1>Cookie 缓存</h1>
+        <p>Basic 模块</p>
     </div>
 </template>
 
 <script>
-export default {
-    layout: 'aside',
-}
+export default {}
 </script>
 
 <style lang="scss" scoped></style>

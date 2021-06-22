@@ -2,12 +2,8 @@
     "nav": [
         {
             "title": "基础知识",
-            "id": "basic",
+            "path": "/basic/",
             "children": [
-                {
-                    "title": "Cookie 缓存",
-                    "path": "/basic/cookie"
-                },
                 {
                     "title": "Cursor 鼠标样式",
                     "path": "/basic/cursor"
@@ -15,28 +11,68 @@
                 {
                     "title": "Filter CSS滤镜",
                     "path": "/basic/filter"
+                },
+                {
+                    "title": "Cookie 缓存",
+                    "path": "/basic/cookie"
+                },
+                {
+                    "title": "Decorator 装饰器",
+                    "path": "/basic/decorator"
+                },
+                {
+                    "title": "Encode 编解码",
+                    "path": "/basic/encode"
+                },
+                {
+                    "title": "手写call，bind，apply",
+                    "path": "/basic/call-bind-apply"
+                },
+                {
+                    "title": "IntersectionObserver",
+                    "path": "/basic/intersectionObserver"
+                },
+                {
+                    "title": "BOM",
+                    "path": "/basic/bom"
                 }
             ]
         },
         {
             "title": "组件",
-            "id": "component",
+            "path": "/component/",
             "children": [
                 {
-                    "title": "",
-                    "path": ""
+                    "title": "图片预览",
+                    "path": "/component/preview-image"
                 }
             ]
         },
         {
             "title": "数据结构",
-            "id": "data-structure",
+            "path": "/data-structure/",
             "children": [
                 {
-                    "title": "",
-                    "path": ""
+                    "title": "List 列表",
+                    "path": "/data-structure/list"
+                },
+                {
+                    "title": "Queue 队列",
+                    "path": "/data-structure/queue"
+                },
+                {
+                    "title": "Stack 栈",
+                    "path": "/data-structure/stack"
+                },
+                {
+                    "title": "BST 二叉搜索树",
+                    "path": "/data-structure/binary-search-tree"
                 }
             ]
+        },
+        {
+            "title": "GitHub",
+            "path": "https://github.com/GuoJikun/front-end-development"
         }
     ]
 }

@@ -18,11 +18,23 @@ export default {
                 return ''
             },
         },
+        type: {
+            type: String,
+            default() {
+                return 'info'
+            },
+            validator(value) {
+                return ['primary', 'success', 'warning', 'danger', 'info'].includes(value)
+            },
+        },
     },
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+p + tip {
+    margin-top: 20px;
+}
 .tip {
     display: block;
     font-size: 13px;

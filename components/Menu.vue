@@ -42,7 +42,7 @@ export default {
 <style lang="scss" scoped>
 .menu {
     padding: 4px 0;
-    background-color: #fff;
+    background-color: var(--color-bg);
     &-item {
         line-height: 30px;
         list-style: none;

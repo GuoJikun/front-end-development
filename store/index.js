@@ -1,5 +1,5 @@
 export const state = () => ({
-    module: 0,
+    module: null,
 })
 export const mutations = {
     module(state, value) {

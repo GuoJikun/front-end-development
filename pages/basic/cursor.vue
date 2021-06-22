@@ -27,7 +27,6 @@
 
 <script>
 export default {
-    layout: 'aside',
     data() {
         return {
             cursors: [

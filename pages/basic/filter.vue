@@ -129,7 +129,6 @@
 
 <script>
 export default {
-    layout: 'aside',
     data() {
         return {
             value1: 0,
