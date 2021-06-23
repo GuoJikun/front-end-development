@@ -60,6 +60,7 @@ export default {
         transpile: [/^element-ui/],
     },
     router: {
-        base: '',
+        base: '/',
+        mode: 'hash',
     },
 }
