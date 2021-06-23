@@ -12,6 +12,7 @@
                             :key="item.path"
                             :href="item.path"
                             class="header-nav-item header-nav-item-link"
+                            target="_blank"
                             >{{ item.title }}</a
                         >
                         <nuxt-link
@@ -20,7 +21,6 @@
                             :class="['header-nav-item', { 'header-nav-item-link': isNetLink(item.path) }]"
                             tag="a"
                             :to="item.path"
-                            :target="isNetLink(item.path) ? '_blank' : '_self'"
                         >
                             {{ item.title }}
                         </nuxt-link>
