@@ -62,5 +62,5 @@ export default {
     router: {
         base: '/',
     },
-    target: 'static',
+    target: 'server',
 }
