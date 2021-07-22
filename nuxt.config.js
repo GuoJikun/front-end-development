@@ -9,15 +9,25 @@ export default {
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-            { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-tomorrow.css' },
+            // { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css' },
+            // {
+            //     rel: 'stylesheet',
+            //     href: 'https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.1.0/build/styles/monokai-sublime.min.css',
+            // },
         ],
         script: [
-            {
-                src: 'https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.js',
-            },
-            {
-                src: 'https://cdn.jsdelivr.net/npm/prism@1.23.0/plugins/autoloader/prism-autoloader.min.js',
-            },
+            // {
+            //     src: 'https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.1.0/build/highlight.min.js',
+            // },
+            // {
+            //     src: '/js/highlight.js',
+            // },
+            // {
+            //     src: 'https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.js',
+            // },
+            // {
+            //     src: 'https://cdn.jsdelivr.net/npm/prism@1.23.0/plugins/autoloader/prism-autoloader.min.js',
+            // },
         ],
     },
 
@@ -53,7 +63,13 @@ export default {
     },
 
     // Content module configuration: https://go.nuxtjs.dev/config-content
-    content: {},
+    content: {
+        markdown: {
+            prism: {
+                theme: 'prism-themes/themes/prism-vsc-dark-plus.css',
+            },
+        },
+    },
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
