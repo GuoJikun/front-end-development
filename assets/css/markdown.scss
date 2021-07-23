@@ -7,7 +7,7 @@ $line-space: 1.5em;
     font-weight: 400;
     font-size: 14px;
     overflow-x: hidden;
-    color: #303133;
+    color: var(--color);
 
     h1,
     h2,
@@ -87,11 +87,11 @@ $line-space: 1.5em;
 
     a {
         text-decoration: none;
-        color: #42b983;
+        color: var(--color-primary);
         border-bottom: 1px solid #d1e9ff;
         &:hover,
         &:active {
-            color: rgba($color: #42b983, $alpha: 0.85);
+            color: rgba($color: var(--color-primary), $alpha: 0.85);
         }
     }
 
@@ -121,11 +121,11 @@ $line-space: 1.5em;
     }
 
     blockquote {
-        color: #666;
+        color: var(--color);
         padding: 10px 23px;
         margin: 22px 0;
-        border-left: 4px solid #42b983;
-        background-color: rgba($color: #42b983, $alpha: 0.1);
+        border-left: 4px solid var(--color-primary);
+        background-color: var(--color-blockquote-bg);
         &::after {
             display: block;
             content: '';

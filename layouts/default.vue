@@ -36,6 +36,9 @@
                 <Nuxt />
             </div>
         </div>
+        <div class="layout-tools">
+            <Tools></Tools>
+        </div>
     </div>
 </template>
 
@@ -83,4 +86,10 @@ export default {
 }
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.layout-tools {
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+}
+</style>
