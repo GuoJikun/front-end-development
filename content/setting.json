@@ -53,7 +53,7 @@
             ]
         },
         {
-            "title": "数据结构",
+            "title": "数据结构/算法",
             "path": "/data-structure/",
             "children": [
                 {
@@ -79,6 +79,10 @@
                 {
                     "title": "BST 二叉搜索树",
                     "path": "/data-structure/binary-search-tree"
+                },
+                {
+                    "title": "Sort 排序",
+                    "path": "/data-structure/sort"
                 }
             ]
         },

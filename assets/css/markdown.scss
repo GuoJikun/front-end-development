@@ -1,6 +1,9 @@
 $monospace-font: Menlo, Monaco, Consolas, 'Courier New', monospace;
 $line-space: 1.5em;
 
+#markdown-wrap {
+    padding-bottom: 20px;
+}
 #markdown-wrap .nuxt-content {
     word-break: break-word;
     line-height: 1.6em;
@@ -124,7 +127,7 @@ $line-space: 1.5em;
         color: var(--color);
         padding: 10px 23px;
         margin: 22px 0;
-        border-left: 4px solid var(--color-primary);
+        border-left: 5px solid var(--color-primary);
         background-color: var(--color-blockquote-bg);
         &::after {
             display: block;
