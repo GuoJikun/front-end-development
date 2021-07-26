@@ -1,8 +1,14 @@
 <template>
     <div class="container">
-        <div>
-            <h1 class="title">website-self</h1>
-        </div>
+        <h1 class="title">website-self</h1>
+        <dl>
+            <dt>主要内容：</dt>
+            <dd>基础知识：包含基础的html，css，JavaScript等等</dd>
+            <dd>组件：主要包含vue组件和webComponent组件</dd>
+            <dd>数据结构/算法：主要记录一些基础数据结构和算法的JavaScript实现</dd>
+            <dd>其他：除之前提到的之外的内容</dd>
+            <dd>GitHub：我的github链接</dd>
+        </dl>
     </div>
 </template>
 
@@ -13,32 +19,5 @@ export default {}
 <style>
 .container {
     margin: 0 auto;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.title {
-    font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
-        Arial, sans-serif;
-    display: block;
-    font-weight: 300;
-    font-size: 100px;
-    color: #35495e;
-    letter-spacing: 1px;
-}
-
-.subtitle {
-    font-weight: 300;
-    font-size: 42px;
-    color: #526488;
-    word-spacing: 5px;
-    padding-bottom: 15px;
-}
-
-.links {
-    padding-top: 15px;
 }
 </style>

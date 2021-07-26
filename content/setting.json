@@ -33,12 +33,16 @@
                     "path": "/basic/intersectionObserver"
                 },
                 {
-                    "title": "BOM",
+                    "title": "utils 工具函数",
                     "path": "/basic/bom"
                 },
                 {
                     "title": "WebComponent",
                     "path": "/basic/web-component"
+                },
+                {
+                    "title": "ECMA 2021",
+                    "path": "/basic/ecma-2021"
                 }
             ]
         },

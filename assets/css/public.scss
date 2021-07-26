@@ -81,6 +81,17 @@ a {
         color: var(--color-primary);
     }
 }
+dl {
+    font-size: 14px;
+}
+dt {
+    font-weight: 600;
+    margin: 6px 0;
+    font-size: 1.2em;
+}
+dd {
+    line-height: 1.8em;
+}
 
 .header {
     position: sticky;
