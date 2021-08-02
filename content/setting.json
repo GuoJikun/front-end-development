@@ -43,6 +43,10 @@
                 {
                     "title": "ECMA 2021",
                     "path": "/basic/ecma-2021"
+                },
+                {
+                    "title": "ECMA 2020",
+                    "path": "/basic/ecma-2020"
                 }
             ]
         },
