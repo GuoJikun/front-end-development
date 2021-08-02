@@ -1,5 +1,5 @@
 function getModuleName(path) {
-    const modules = ['basic', 'component', 'data-structure']
+    const modules = ['basic', 'component', 'data-structure', 'other']
     const pathArr = path.split('/')
     const moduleName = pathArr[1]
     if (modules.includes(moduleName)) {

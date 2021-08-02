@@ -91,6 +91,16 @@
             ]
         },
         {
+            "title": "其它",
+            "path": "/other/",
+            "children": [
+                {
+                    "title": "安装WSLG",
+                    "path": "/other/wsl"
+                }
+            ]
+        },
+        {
             "title": "GitHub",
             "path": "https://github.com/GuoJikun/front-end-development"
         }
